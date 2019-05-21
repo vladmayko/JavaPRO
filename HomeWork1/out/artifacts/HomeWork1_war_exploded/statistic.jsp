@@ -16,7 +16,5 @@
     <h1>Java = ${java} %</h1>
     <h1>C# = ${cSharp} %</h1>
     <h1>JS = ${js} %</h1>
-    <script type="text/javascript">
-    </script>
 </body>
 </html>
