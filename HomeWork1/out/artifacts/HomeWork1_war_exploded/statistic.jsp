@@ -12,9 +12,9 @@
 </head>
 <body>
     <h2>Programming language statistic:</h2>
-    <h1>C++ = ${cPlus} %</h1>
-    <h1>Java = ${java} %</h1>
-    <h1>C# = ${cSharp} %</h1>
-    <h1>JS = ${js} %</h1>
+    <h3>C++ = ${cPlus} %</h3>
+    <h3>Java = ${java} %</h3>
+    <h3>C# = ${cSharp} %</h3>
+    <h3>JS = ${js} %</h3>
 </body>
 </html>
