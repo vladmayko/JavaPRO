@@ -17,10 +17,6 @@
     <h1>C# = ${cSharp} %</h1>
     <h1>JS = ${js} %</h1>
     <script type="text/javascript">
-        $(window).bind("pageshow", function(){
-            var form = $('form');
-            form[0].reset();
-        });
     </script>
 </body>
 </html>
