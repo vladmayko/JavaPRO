@@ -38,12 +38,11 @@ public class TableNameDao {
         Connection conn = ConnectToDB.connectionToDB();
         PreparedStatement ps = conn.prepareStatement("SELECT * FROM Clients WHERE id = ?");
         try{
+            if(checkId(id)){
             ps.setInt(1, id);
             ResultSet rs = ps.executeQuery();
-            if(rs.next()){
-                human = new Human(rs.getInt("id"), rs.getString("name"), rs.getInt("age"));
-            }else {
-                System.out.println("ERROR: ID not found!");
+            human = new Human(rs.getInt("id"), rs.getString("name"), rs.getInt("age"));
+
             }
         }catch (SQLException e){
 
